@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Peliculas.Domain\Peliculas.Domain.csproj" />
+    <ProjectReference Include="..\Peliculas.Persitence.Database\Peliculas.Persitence.Database.csproj" />
+  </ItemGroup>
+
+</Project>
